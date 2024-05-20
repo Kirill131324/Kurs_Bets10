@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="342.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kurs_bets.Osnova">
+   <children>
+      <Button fx:id="BUt1" layoutX="240.0" layoutY="285.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="120.0" text="Аналіз" />
+      <ImageView fx:id="Foto" fitHeight="193.0" fitWidth="241.0" layoutX="201.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="Lab1" layoutX="14.0" layoutY="80.0" text="Введіть ім'я батька" />
+      <Label fx:id="Lab2" layoutX="14.0" layoutY="136.0" text="Введіть прізвище батька" />
+      <Label fx:id="Lab3" layoutX="14.0" layoutY="202.0" text="Оберіть захворювання батька" />
+      <TextField fx:id="Tex1" layoutX="14.0" layoutY="104.0" prefHeight="25.0" prefWidth="178.0" />
+      <TextField fx:id="Tex2" layoutX="14.0" layoutY="163.0" prefHeight="25.0" prefWidth="178.0" />
+      <Label fx:id="Lab4" layoutX="411.0" layoutY="80.0" text="Введіть ім'я матері" />
+      <Label fx:id="Lab5" layoutX="411.0" layoutY="136.0" text="Введіть прізвище матері" />
+      <Label fx:id="Lab6" layoutX="411.0" layoutY="202.0" text="Оберіть захворювання матері" />
+      <TextField fx:id="Tex3" layoutX="411.0" layoutY="104.0" prefHeight="25.0" prefWidth="172.0" />
+      <TextField fx:id="Tex4" layoutX="411.0" layoutY="163.0" prefHeight="25.0" prefWidth="172.0" />
+      <Button fx:id="BUt2" layoutX="458.0" layoutY="285.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="120.0" text="Довідка" />
+      <ComboBox fx:id="Com1" layoutX="14.0" layoutY="226.0" prefHeight="25.0" prefWidth="178.0" promptText="Оберіть зі списку:" />
+      <ComboBox fx:id="Com2" layoutX="408.0" layoutY="226.0" prefHeight="25.0" prefWidth="178.0" promptText="Оберіть зі списку:" />
+      <Button fx:id="BUt3" layoutX="14.0" layoutY="285.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="120.0" text="До головної" />
+      <Label fx:id="Lab7" layoutX="14.0" layoutY="14.0" text="Пошук:" />
+      <TextField fx:id="Tex5" layoutX="14.0" layoutY="38.0" prefHeight="25.0" prefWidth="178.0" promptText="Введіть назву захворювання:" />
+      <ProgressBar fx:id="Prog" layoutX="306.0" layoutY="42.0" prefHeight="18.0" prefWidth="278.0" progress="0.0" />
+      <Button fx:id="BUt4" layoutX="210.0" layoutY="38.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" text="Почати" />
+   </children>
+</AnchorPane>
